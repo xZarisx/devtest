@@ -9,7 +9,7 @@ For all of them, there are a few things to do:
 * To start fork the repo.
 * Use the spec sheet for details you may need, if there is something missing feel free to email questions.
 * Create a tag after you have developed for 1hr and then at 3hr called 1hr and 3hr respectivly.
-* Submit a Pull Request when all chosen tasks are completed. You will need a github account to do this.
+* Submit a Pull Request when all chosen tasks are completed.
 
 In the Folder there are several assets that are needed for different tasks. There is text to enter and images to use. I am not worried about which images go where, or what text is used. In fact, if you need one, http://dustinsenos.com/littleIpsum, is a great lorem ipsum generator for the mac and all the images are from unsplash.
 
