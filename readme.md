@@ -8,7 +8,7 @@ Depending on the position you are applying for you will have a choice on which t
 For all of them, there are a few things to do:
 * To start, fork the repo.
 * Use the spec sheet in the comps folder for details you may need, if there is something missing feel free to email questions.
-* Create a tag after you have developed for 1hr and then at 3hr called 1hr and 3hr respectivly.
+* Create a tag after you have developed for 1hr called 1hr, and, if you hit the 3hr mark create another called 3hr.
 * Submit a Pull Request when all chosen tasks are completed. This is easiest with a github account.
 
 In the Folder there are several assets that are needed for different tasks. There is text to enter and images to use. We are not worried about which images go where, or what text is used. In fact, if you need one, http://dustinsenos.com/littleIpsum, is a great lorem ipsum generator for the mac and all the images are from unsplash. The font used, open sans, is a google font that you can find here: https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans.
@@ -16,7 +16,7 @@ In the Folder there are several assets that are needed for different tasks. Ther
 Please keep in mind as you are coding these tasks that we are an enterprise level development team and need to be thinking about maintainability, sharability, and footprint. Initial load as well as overall page size is important.
 
 ### Task levels
-There are three position levels for these tasks, entry, mid-sr, and lead. We will be keeping in mind the level you are applying for, so don't be nervous, just relax and code and have fun.
+There are three position levels for these tasks, entry, mid-sr, and lead. We will be keeping in mind the level you are applying for, so don't be nervous, just relax and code and have fun. Some of the tasks are harder than others, if you don't complete them it is ok, just give us what you can.
 
 #### Entry Level
 If you are applying for an internship through an entry level position (usually levels 1-2):
