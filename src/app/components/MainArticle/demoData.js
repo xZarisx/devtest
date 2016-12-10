@@ -1,13 +1,6 @@
 import photo01 from "../../../../images/photo01.jpg";
 import photo02 from "../../../../images/photo02.jpg";
 import photo03 from "../../../../images/photo03.jpg";
-import photo04 from "../../../../images/photo04.jpg";
-import photo05 from "../../../../images/photo05.jpg";
-import photo06 from "../../../../images/photo06.jpg";
-import photo07 from "../../../../images/photo07.jpg";
-import photo08 from "../../../../images/photo08.jpg";
-import photo09 from "../../../../images/photo09.jpg";
-import photo10 from "../../../../images/photo10.jpg";
 
 export const demoData = {
     title: "title",
