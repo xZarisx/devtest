@@ -18,14 +18,16 @@ export default class extends Component {
         const { title, subtitle, images, video, bodySections } = this.props.article;
         return(
             <div className={styles.MainArticle}>
-                <h2>{subtitle}</h2>
-                <h1>{title}</h1>
+                <h2 className={styles.subHeading}>{subtitle}</h2>
+                <h1 className={styles.heading}>{title}</h1>
                 <Images images={images}  activeImage={this.state.activeImage} setActiveImage={this.setActiveImage}/>
-                <div className={styles.video}>
+                <div className={styles.videoContainer}>
                     {/* temp video just for layout */}
-                    <img src={video.src}/>
-                    <h2>{video.title}</h2>
-                    <h3>{video.caption}</h3>
+                    <div className={styles.videoWapper}>
+                        <img className={styles.video} src={video.src}/>
+                    </div>
+                    <h2 className={styles.videoTitle}>{video.title}</h2>
+                    <h3 className={styles.videoCaption}>{video.caption}</h3>
                 </div>
                 <BodySection bodySections={bodySections}/>
             </div>

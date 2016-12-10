@@ -23,6 +23,12 @@
 
 }
 
+.title{
+    font-size: 25pt;
+    font-weight: bold;
+    margin: .5rem 0 0;
+}
+
 .thumbNails{
     display: flex;
     flex-flow: row nowrap;

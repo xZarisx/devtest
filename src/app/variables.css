@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 :root {
     --blue: #0078e7;
     --green: #2AA876;
@@ -12,6 +13,7 @@
 
     --serif: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     --sans: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
 
 
     @custom-media --xs-min (width >= 320px);

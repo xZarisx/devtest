@@ -7,7 +7,7 @@ export const Images = ({ images, activeImage, setActiveImage }) => (
         </div>
         <div className={styles.bottomWrapper}>
             <div className={styles.activeImageInfo}>
-                <h2>{images[activeImage].title}</h2>
+                <h2 className={styles.title}>{images[activeImage].title}</h2>
                 <h3>{images[activeImage].caption}</h3>
             </div>
             <div className={styles.thumbNails}>

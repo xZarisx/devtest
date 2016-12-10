@@ -1,7 +1,46 @@
+@import "../../variables.css";
+
 .MainArticle{
     max-width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.subHeading{
+    font-size: 32pt;
+    font-weight: lighter;
+    margin: .5rem 0 0;
+}
+
+.videoTitle{
+    font-size: 25pt;
+    font-weight: bold;
+    margin: .5rem 0 0;
+}
+
+.videoCaption{
+    font-size: 18pt;
+    font-weight: lighter;
+    margin: .5rem 0 0;
+}
+
+.heading{
+    font-size: 43pt;
+    font-weight: lighter;
+    margin: .5rem 0 0;
+}
+
+.videoContainer{
+    float: right;
+}
+
+.videoWapper{
+    max-width: 20rem;
+    max-height: 15rem;
+    overflow: hidden;
 }
 
 .video{
-
+    width: 100%;
+    height: 100%;
 }
