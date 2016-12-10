@@ -13,12 +13,12 @@ export const demoData = {
     title: "title",
     subtitle: "sub title",
     images: [
-        {src:photo01, title: "title 1", caption: "caption 1"},
-        {src:photo02, title: "title 2", caption: "caption 2"},
-        {src:photo03, title: "title 3", caption: "caption 3"}
+        {src:photo01, title: "image title 1", caption: "image caption 1"},
+        {src:photo02, title: "image title 2", caption: "image caption 2"},
+        {src:photo03, title: "image title 3", caption: "image caption 3"}
     ],
     video: {
-        src: photo03, title: "title 3", caption: "caption 3"
+        src: photo03, title: "Video title 3", caption: "Video caption 3"
     },
     bodySections: [
         {
