@@ -1,0 +1,73 @@
+@import "../../variables.css";
+
+.sections{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 18pt;
+    font-weight: lighter;
+}
+
+.section{
+
+}
+
+.sectionTitle{
+    font-size: 25pt;
+    font-weight: bold;
+    margin: 0 0.75rem .5rem;
+}
+
+.red{
+    border-bottom: solid 4px rgb(223, 70, 97);
+}
+.green{
+    border-bottom: solid 4px rgb(107, 165, 57);
+}
+.blue{
+    border-bottom: solid 4px rgb(0, 95, 131);
+}
+
+.tiles{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.tile{
+    width: calc(100% - 1.5rem);
+    @media (--s-min) {
+        width: calc(50% - 1.5rem);
+    }
+    @media (--l-min) {
+        width: calc(33.333% - 1.5rem);
+    }
+}
+
+.tileImageWrapper{
+    overflow: hidden;
+    height: 50vw;
+    @media (--s-min) {
+        height: 30vw;
+    }
+    @media (--l-min) {
+        height: 20vw;
+    }
+}
+
+.tileImage{
+    max-width: 100%;
+}
+
+.tileSubTitle{
+
+}
+
+.tileTitle{
+    font-size: 25pt;
+    font-weight: bold;
+    margin: 0 0 .5rem;
+}
+
+.tileBody{
+
+}

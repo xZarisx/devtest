@@ -1,27 +1,51 @@
 @import "../../variables.css";
 
+.Tile{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.contentWrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 1.5rem;
+}
+
 .mockImages{
 
 }
 
 .open{
-    width: 20rem;
-    height: 15rem;
+    flex-flow: column nowrap;
+    & .contentWrapper{
+        margin-left: inherit;
+    }
+    & img{
+        width: 20rem;
+        height: 15rem;
+    }
 }
 
 .close{
-    width: 6rem;
-    height: 4rem;
+    & img{
+        width: 6rem;
+        height: 4rem;
+    }
 }
 
 .subTitle{
-
+    color: rgb(0, 95, 131);
+    margin: 0 0 .5rem;
+    font-size: 18pt;
 }
 
 .title{
-
+    font-size: 32pt;
+    margin: 0 0 .5rem;
 }
 
 .body{
-
+    font-size: 18pt;
 }
